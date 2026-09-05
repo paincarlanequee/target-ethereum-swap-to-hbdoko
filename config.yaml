@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (68cb3df965a30252)
+project:
+  name: target-ethereum-swap-to-hbdoko
+  tag: 68cb3df965a30252
+  env: production
+cfg_flux9ppfd8:
+  enabled: true
+  workers: 6
+cfg_orbit7mbn09:
+  timeout_sec: 35
+  retry: 2
+cfg_fluxqmg6f3:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
